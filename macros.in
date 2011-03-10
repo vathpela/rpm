@@ -1057,6 +1057,9 @@ package or when debugging this package.\
 # arch macro for all supported PowerPC 64 processors
 %power64	ppc64 ppc64p7 ppc64le
 
+# arch macro for all EFI-compatible architectures
+%efi %{ix86} x86_64 ia64 aarch64
+
 #------------------------------------------------------------------------
 # Use in %install to generate locale specific file lists. For example,
 #
